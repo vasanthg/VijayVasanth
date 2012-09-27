@@ -19,7 +19,7 @@ var vis = d3.select("body").insert("svg:svg", "h2")
     .append("svg:g")
     .attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
 
-d3.json("data/IBM_full.txt", afterLoad);
+d3.json("data/IBM_full.json", afterLoad);
 
 var rad = document.scopeForm.scopeRadios;
 var prev = null;
@@ -37,10 +37,10 @@ for(var i = 0; i < rad.length; i++) {
 function changeScope(scope) {
     if(scope == 'company') {
         console.log("Loading company");
-        d3.json("data/IBM_nodomain.txt", afterFirstLoad);
+        d3.json("data/IBM_nodomain.json", afterFirstLoad);
     } else if(scope == 'domain') {
         console.log("Loading domain");
-        d3.json("data/IBM_full.txt", afterFirstLoad);
+        d3.json("data/IBM_full.json", afterFirstLoad);
     }
 }
 
