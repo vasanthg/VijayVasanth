@@ -1,0 +1,557 @@
+{
+    "name": "",
+    "children": [
+        {
+            "name": "Spain",
+            "type": "company",
+            "children": [
+                {
+                    "name": "Beg.",
+                    "type": "status",
+                    "children": [
+                        {
+                            "name": "1",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "2",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "3",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Int.",
+                    "type": "status",
+                    "children": [
+                        {
+                            "name": "4",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "5",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "6",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "7",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "8",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Adv.",
+                    "type": "status",
+                    "children": [
+                        {
+                            "name": "9",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 938},
+                                {"name": "Assignment 2", "size": 812},
+                                {"name": "Assignment 3", "size": 714},
+                                {"name": "Assignment 4", "size": 43},
+                                {"name": "Review Test 1", "size": 43},
+                                {"name": "Assignment 5", "size": 938},
+                                {"name": "Assignment 6", "size": 812},
+                                {"name": "Assignment 7", "size": 714},
+                                {"name": "Assignment 8", "size": 43},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "10",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 938},
+                                {"name": "Assignment 2", "size": 812},
+                                {"name": "Assignment 3", "size": 714},
+                                {"name": "Assignment 4", "size": 43},
+                                {"name": "Review Test 1", "size": 43},
+                                {"name": "Assignment 5", "size": 938},
+                                {"name": "Assignment 6", "size": 812},
+                                {"name": "Assignment 7", "size": 714},
+                                {"name": "Assignment 8", "size": 43},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Brazil",
+            "type": "company",
+            "children": [
+                {
+                    "name": "Beg.",
+                    "type": "status",
+                    "children": [
+                        {
+                            "name": "1",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "2",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "3",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Int.",
+                    "type": "status",
+                    "children": [
+                        {
+                            "name": "4",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "5",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "6",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "7",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "8",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Adv.",
+                    "type": "status",
+                    "children": [
+                        {
+                            "name": "9",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 938},
+                                {"name": "Assignment 2", "size": 812},
+                                {"name": "Assignment 3", "size": 714},
+                                {"name": "Assignment 4", "size": 43},
+                                {"name": "Review Test 1", "size": 43},
+                                {"name": "Assignment 5", "size": 938},
+                                {"name": "Assignment 6", "size": 812},
+                                {"name": "Assignment 7", "size": 714},
+                                {"name": "Assignment 8", "size": 43},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "10",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 938},
+                                {"name": "Assignment 2", "size": 812},
+                                {"name": "Assignment 3", "size": 714},
+                                {"name": "Assignment 4", "size": 43},
+                                {"name": "Review Test 1", "size": 43},
+                                {"name": "Assignment 5", "size": 938},
+                                {"name": "Assignment 6", "size": 812},
+                                {"name": "Assignment 7", "size": 714},
+                                {"name": "Assignment 8", "size": 43},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Japan",
+            "type": "company",
+            "children": [
+                {
+                    "name": "Beg.",
+                    "type": "status",
+                    "children": [
+                        {
+                            "name": "1",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 1938},
+                                {"name": "Assignment 2", "size": 1812},
+                                {"name": "Assignment 3", "size": 1714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 1938},
+                                {"name": "Assignment 6", "size": 1812},
+                                {"name": "Assignment 7", "size": 1714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "2",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 1938},
+                                {"name": "Assignment 2", "size": 1812},
+                                {"name": "Assignment 3", "size": 1714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 1938},
+                                {"name": "Assignment 6", "size": 1812},
+                                {"name": "Assignment 7", "size": 1714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "3",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 1938},
+                                {"name": "Assignment 2", "size": 1812},
+                                {"name": "Assignment 3", "size": 1714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 1938},
+                                {"name": "Assignment 6", "size": 1812},
+                                {"name": "Assignment 7", "size": 1714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Int.",
+                    "type": "status",
+                    "children": [
+                        {
+                            "name": "4",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "5",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "6",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "7",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "8",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 3938},
+                                {"name": "Assignment 2", "size": 3812},
+                                {"name": "Assignment 3", "size": 6714},
+                                {"name": "Assignment 4", "size": 743},
+                                {"name": "Review Test 1", "size": 743},
+                                {"name": "Assignment 5", "size": 3938},
+                                {"name": "Assignment 6", "size": 3812},
+                                {"name": "Assignment 7", "size": 6714},
+                                {"name": "Assignment 8", "size": 743},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Adv.",
+                    "type": "status",
+                    "children": [
+                        {
+                            "name": "9",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 938},
+                                {"name": "Assignment 2", "size": 812},
+                                {"name": "Assignment 3", "size": 714},
+                                {"name": "Assignment 4", "size": 43},
+                                {"name": "Review Test 1", "size": 43},
+                                {"name": "Assignment 5", "size": 938},
+                                {"name": "Assignment 6", "size": 812},
+                                {"name": "Assignment 7", "size": 714},
+                                {"name": "Assignment 8", "size": 43},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        },
+                        {
+                            "name": "10",
+                            "type": "level",
+                            "children": [
+                                {"name": "Assignment 1", "size": 938},
+                                {"name": "Assignment 2", "size": 812},
+                                {"name": "Assignment 3", "size": 714},
+                                {"name": "Assignment 4", "size": 43},
+                                {"name": "Review Test 1", "size": 43},
+                                {"name": "Assignment 5", "size": 938},
+                                {"name": "Assignment 6", "size": 812},
+                                {"name": "Assignment 7", "size": 714},
+                                {"name": "Assignment 8", "size": 43},
+                                {"name": "CPT", "size": 743}
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

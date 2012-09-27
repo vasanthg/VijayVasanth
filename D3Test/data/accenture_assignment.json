@@ -1,0 +1,4015 @@
+{
+    "name": "Accenture",
+    "children": [
+        {
+            "name": "Accenture 1",
+            "type": "domain",
+            "children": [
+                {
+                    "name": "CZECH BPO",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "China - Accenture 1",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "NonServices_China_Consulting",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Human_Resources",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Enterprise",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Czech Republic - Accenture 1",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "NonServices_China_APSSC",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "AFS/BPO/CONSULTING/OTHER Survey Group",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "SurveyGroup_Apr06_3-year-Seats",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Brazil - Accenture 1",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Italy - Accenture 1",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "United States - Accenture 1",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Mexico - Accenture 1",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "CZECH ALL",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "ITALY_Full Service",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "France Accenture-Solutions",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Consulting/Other",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Solutions",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Tech_Solutions",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Spain - Accenture 1",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "DACH_Consulting",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Germany - Accenture 1",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "DACH_BPO-AFS",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Slovakia - Accenture 1",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Poland - Accenture 1",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "France - Accenture 1",
+                    "type": "group",
+                    "children": [
+                        {
+                            "name": "Beginner",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 1",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 2",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 2
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 3",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Intermediate",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 4",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 9
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 5",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 7
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 1
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 6",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 16
+                                        },
+                                        {
+                                            "name": "Assignment 2",
+                                            "type": "assignment",
+                                            "value": 3
+                                        },
+                                        {
+                                            "name": "Assignment 7",
+                                            "type": "assignment",
+                                            "value": 3
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 7",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 13
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Advanced",
+                            "type": "status",
+                            "children": [
+                                {
+                                    "name": "Level 8",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 15
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 9",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 4
+                                        }
+                                    ]
+                                },
+                                {
+                                    "name": "Level 10",
+                                    "type": "level",
+                                    "children": [
+                                        {
+                                            "name": "Assignment 1",
+                                            "type": "assignment",
+                                            "value": 10
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

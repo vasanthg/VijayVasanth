@@ -1,0 +1,159 @@
+{
+    "name": "Accenture",
+    "children": [
+        {
+            "name": "Accenture 1",
+            "type": "domain",
+            "children": [
+                {
+                    "name": "Beginner",
+                    "type": "status",
+                    "children": [
+                        {
+                            "name": "Level 1",
+                            "type": "level",
+                            "children": [
+                                {
+                                    "name": "Assignment 1",
+                                    "type": "assignment",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Level 2",
+                            "type": "level",
+                            "children": [
+                                {
+                                    "name": "Assignment 1",
+                                    "type": "assignment",
+                                    "value": 2
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Level 3",
+                            "type": "level",
+                            "children": [
+                                {
+                                    "name": "Assignment 1",
+                                    "type": "assignment",
+                                    "value": 10
+                                },
+                                {
+                                    "name": "Assignment 2",
+                                    "type": "assignment",
+                                    "value": 4
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Intermediate",
+                    "type": "status",
+                    "children": [
+                        {
+                            "name": "Level 4",
+                            "type": "level",
+                            "children": [
+                                {
+                                    "name": "Assignment 1",
+                                    "type": "assignment",
+                                    "value": 9
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Level 5",
+                            "type": "level",
+                            "children": [
+                                {
+                                    "name": "Assignment 1",
+                                    "type": "assignment",
+                                    "value": 7
+                                },
+                                {
+                                    "name": "Assignment 2",
+                                    "type": "assignment",
+                                    "value": 1
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Level 6",
+                            "type": "level",
+                            "children": [
+                                {
+                                    "name": "Assignment 1",
+                                    "type": "assignment",
+                                    "value": 16
+                                },
+                                {
+                                    "name": "Assignment 2",
+                                    "type": "assignment",
+                                    "value": 3
+                                },
+                                {
+                                    "name": "Assignment 7",
+                                    "type": "assignment",
+                                    "value": 3
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Level 7",
+                            "type": "level",
+                            "children": [
+                                {
+                                    "name": "Assignment 1",
+                                    "type": "assignment",
+                                    "value": 13
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "name": "Advanced",
+                    "type": "status",
+                    "children": [
+                        {
+                            "name": "Level 8",
+                            "type": "level",
+                            "children": [
+                                {
+                                    "name": "Assignment 1",
+                                    "type": "assignment",
+                                    "value": 15
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Level 9",
+                            "type": "level",
+                            "children": [
+                                {
+                                    "name": "Assignment 1",
+                                    "type": "assignment",
+                                    "value": 4
+                                }
+                            ]
+                        },
+                        {
+                            "name": "Level 10",
+                            "type": "level",
+                            "children": [
+                                {
+                                    "name": "Assignment 1",
+                                    "type": "assignment",
+                                    "value": 10
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
