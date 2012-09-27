@@ -1,0 +1,236 @@
+2012/09/25 10:55:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "user".' in C:\yiisetup\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yiisetup\framework\web\CWebApplication.php(142): CWebApplication->runController('user')
+#1 C:\yiisetup\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/index.php?r=user
+---
+2012/09/25 10:58:04 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\yiisetup\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\yiisetup\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\yiisetup\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\yiisetup\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\yiisetup\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\yiisetup\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\yiisetup\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\yiisetup\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\yiisetup\framework\web\CWebApplication.php(283): CController->run('admin')
+#8 C:\yiisetup\framework\web\CWebApplication.php(142): CWebApplication->runController('user/admin')
+#9 C:\yiisetup\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=user/admin
+HTTP_REFERER=http://localhost/yii/index.php?r=user/create
+---
+2012/09/25 10:59:23 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\yiisetup\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\yiisetup\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\yiisetup\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\yiisetup\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\yiisetup\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\yiisetup\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\yiisetup\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\yiisetup\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\yiisetup\framework\web\CWebApplication.php(283): CController->run('admin')
+#8 C:\yiisetup\framework\web\CWebApplication.php(142): CWebApplication->runController('user/admin')
+#9 C:\yiisetup\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=user/admin
+HTTP_REFERER=http://localhost/yii/index.php?r=user/index
+---
+2012/09/25 11:05:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "dickson".' in C:\yiisetup\framework\web\CController.php:484
+Stack trace:
+#0 C:\yiisetup\framework\web\CController.php(271): CController->missingAction('dickson')
+#1 C:\yiisetup\framework\web\CWebApplication.php(283): CController->run('dickson')
+#2 C:\yiisetup\framework\web\CWebApplication.php(142): CWebApplication->runController('user/dickson')
+#3 C:\yiisetup\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/yii/index.php?r=user/dickson&id=1
+HTTP_REFERER=http://localhost/yii/index.php?r=user/index
+---
+2012/09/25 12:27:17 [error] [exception.CException] exception 'CException' with message 'Property "User.title" is not defined.' in C:\yiisetup\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\yiisetup\framework\db\ar\CActiveRecord.php(144): CComponent->__get('title')
+#1 C:\yiisetup\framework\web\helpers\CHtml.php(1809): CActiveRecord->__get('title')
+#2 C:\yiisetup\framework\zii\widgets\grid\CDataColumn.php(134): CHtml::value(Object(User), 'title')
+#3 C:\yiisetup\framework\zii\widgets\grid\CGridColumn.php(145): CDataColumn->renderDataCellContent(0, Object(User))
+#4 C:\yiisetup\framework\zii\widgets\grid\CGridView.php(546): CGridColumn->renderDataCell(0)
+#5 C:\yiisetup\framework\zii\widgets\grid\CGridView.php(517): CGridView->renderTableRow(0)
+#6 C:\yiisetup\framework\zii\widgets\grid\CGridView.php(427): CGridView->renderTableBody()
+#7 C:\yiisetup\framework\zii\widgets\CBaseListView.php(161): CGridView->renderItems()
+#8 [internal function]: CBaseListView->renderSection(Array)
+#9 C:\yiisetup\framework\zii\widgets\CBaseListView.php(144): preg_replace_callback('/{(\w+)}/', Array, '{summary}?{item...')
+#10 C:\yiisetup\framework\zii\widgets\CBaseListView.php(129): CBaseListView->renderContent()
+#11 C:\yiisetup\framework\web\CBaseController.php(174): CBaseListView->run()
+#12 C:\xampp\htdocs\yii\protected\views\user\index.php(40): CBaseController->widget('zii.widgets.gri...', Array)
+#13 C:\yiisetup\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#14 C:\yiisetup\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#15 C:\yiisetup\framework\web\CController.php(870): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#16 C:\yiisetup\framework\web\CController.php(783): CController->renderPartial('index', Array, true)
+#17 C:\xampp\htdocs\yii\protected\controllers\UserController.php(128): CController->render('index', Array)
+#18 C:\yiisetup\framework\web\actions\CInlineAction.php(50): UserController->actionIndex()
+#19 C:\yiisetup\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#20 C:\yiisetup\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#21 C:\yiisetup\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#22 C:\yiisetup\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#23 C:\yiisetup\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#24 C:\yiisetup\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#25 C:\yiisetup\framework\web\CController.php(292): CFilterChain->run()
+#26 C:\yiisetup\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#27 C:\yiisetup\framework\web\CWebApplication.php(283): CController->run('index')
+#28 C:\yiisetup\framework\web\CWebApplication.php(142): CWebApplication->runController('user/index')
+#29 C:\yiisetup\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#30 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#31 {main}
+REQUEST_URI=/yii/index.php?r=user/index
+HTTP_REFERER=http://localhost/yii/index.php?r=user/view&id=1
+---
+2012/09/26 07:50:38 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\yiisetup\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\yiisetup\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\yiisetup\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\yiisetup\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\yiisetup\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\yiisetup\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\yiisetup\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\yiisetup\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\yiisetup\framework\web\CWebApplication.php(283): CController->run('admin')
+#8 C:\yiisetup\framework\web\CWebApplication.php(142): CWebApplication->runController('user/admin')
+#9 C:\yiisetup\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=user/admin
+HTTP_REFERER=http://localhost/yii/index.php?r=site/login
+---
+2012/09/26 07:51:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\yiisetup\framework\web\CController.php:337
+Stack trace:
+#0 C:\yiisetup\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\yiisetup\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\yiisetup\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\yiisetup\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\yiisetup\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\yiisetup\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\yiisetup\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\yiisetup\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\yiisetup\framework\web\CWebApplication.php(283): CController->run('view')
+#9 C:\yiisetup\framework\web\CWebApplication.php(142): CWebApplication->runController('user/view')
+#10 C:\yiisetup\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/index.php?r=user/view
+---
+2012/09/26 07:51:19 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\yiisetup\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\yiisetup\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\yiisetup\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\yiisetup\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\yiisetup\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\yiisetup\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\yiisetup\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\yiisetup\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\yiisetup\framework\web\CWebApplication.php(283): CController->run('admin')
+#8 C:\yiisetup\framework\web\CWebApplication.php(142): CWebApplication->runController('user/admin')
+#9 C:\yiisetup\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/yii/index.php?r=user/admin
+HTTP_REFERER=http://localhost/yii/index.php?r=user/index
+---
+2012/09/26 12:45:23 [error] [exception.CException] exception 'CException' with message 'UserController has an extra endWidget(CContentDecorator) call in its view.' in C:\xampp\htdocs\yii\framework\web\CBaseController.php:211
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CBaseController.php(301): CBaseController->endWidget('CContentDecorat...')
+#1 C:\xampp\htdocs\yii\protected\views\layouts\column2.php(20): CBaseController->endContent()
+#2 C:\xampp\htdocs\yii\framework\web\CBaseController.php(127): require('C:\xampp\htdocs...')
+#3 C:\xampp\htdocs\yii\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\xampp\htdocs...', Array, true)
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(785): CBaseController->renderFile('C:\xampp\htdocs...', Array, true)
+#5 C:\xampp\htdocs\yii\protected\controllers\UserController.php(128): CController->render('index', Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): UserController->actionIndex()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('index')
+#16 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('user/index')
+#17 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#19 {main}
+REQUEST_URI=/yii/index.php?r=user/index
+---
+2012/09/26 14:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "reportalportal".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('reportalportal')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/reportalportal
+---
+2012/09/26 14:14:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "reportalPortal".' in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('reportalPortal')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii/reportalPortal
+---
+2012/09/26 14:32:00 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('view')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('user/view')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/user/view
+---
+2012/09/26 14:32:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\xampp\htdocs\yii\framework\web\CController.php:337
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): CController->run('view')
+#9 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController('user/view')
+#10 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\xampp\htdocs\yii\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/yii/user/view
+---
+2012/09/26 14:32:43 [error] [php] YiiBase::include(tbl_user.php) [<a href='function.YiiBase-include'>function.YiiBase-include</a>]: failed to open stream: No such file or directory (C:\xampp\htdocs\yii\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(387): spl_autoload_call()
+#1 C:\xampp\htdocs\yii\framework\web\CActiveDataProvider.php(75): model()
+#2 C:\xampp\htdocs\yii\protected\controllers\UserController.php(125): CActiveDataProvider->__construct()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(50): UserController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(134): UserController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(59): UserController->filterAccessControl()
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\xampp\htdocs\yii\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\xampp\htdocs\yii\framework\web\CController.php(266): UserController->runActionWithFilters()
+#12 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(283): UserController->run()
+#13 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\xampp\htdocs\yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\xampp\htdocs\yii\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii/user/index
+in C:\xampp\htdocs\yii\protected\controllers\UserController.php (125)
+in C:\xampp\htdocs\yii\index.php (13)
