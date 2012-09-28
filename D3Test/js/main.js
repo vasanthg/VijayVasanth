@@ -19,6 +19,14 @@ var vis = d3.select("body").insert("svg:svg", "h2")
     .append("svg:g")
     .attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
 
+vis.append("rect")
+    .attr("width", 980)
+    .attr("height", 550)
+    .attr("x", 0-(w-r)/2)
+    .attr("y", 0-(h - r) / 2)
+
+    .attr("class","background");
+
 d3.json("data/IBM_full.json", afterLoad);
 
 var rad = document.scopeForm.scopeRadios;
@@ -52,12 +60,12 @@ function afterLoad(data) {
     vis.selectAll("circle")
         .data(nodes)
         .enter().append("svg:circle")
-        .attr("class", function(d) { return d.children ? "parent" : "child"; })
+        .attr("class", circleClassMatch)
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; })
         .attr("r", 0)
         .on("click", function(d) { return zoom(node == d ? root : d); })
-        .transition()
+        .transition().duration(2000).delay(function(d, i) { return i * 2.5; })
             .attr("r", function(d) { return d.r; });
 
     vis.selectAll("text")
@@ -65,12 +73,12 @@ function afterLoad(data) {
         .enter().append("svg:text")
         .attr("class", textClassMatch)
         .attr("x", function(d) { return d.x; })
-        .attr("y", function(d) { return d.y; })
+        .attr("y", textYPlacement)
         .attr("dy", ".35em")
         .attr("text-anchor", "middle")
         .style("opacity", 0)
         .text(function(d) { return d.name; })
-        .transition()
+        .transition().duration(2500)
             .style("opacity", showLabels);
 
     d3.select(window).on("click", function() { zoom(root); });
@@ -82,24 +90,26 @@ function afterFirstLoad(data) {
     nodes = pack.nodes(root);
 
     vis.selectAll("circle").data(nodes).enter().append("svg:circle")
+        .attr("class", circleClassMatch)
         .attr("r",0)
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; })
         .on("click", function(d) { return zoom(node == d ? root : d); })
-        .transition().duration(2000)
+        .transition().duration(2000).delay(function(d, i) { return i * 2.5; })
             .attr("r", function(d) { return d.r; });
 
-    vis.selectAll("circle").data(nodes).transition().duration(2000).attr("class", function(d) { return d.children ? "parent" : "child"; })
+    vis.selectAll("circle").data(nodes).transition().duration(2000).delay(function(d, i) { return i * 2.5; })
+        .attr("class", circleClassMatch)
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; })
         .attr("r", function(d) { return d.r; });
 
-    vis.selectAll("circle").data(nodes).exit().transition().duration(2000).attr("r", 0).remove();
+    vis.selectAll("circle").data(nodes).exit().transition().duration(2000).delay(function(d, i) { return i * 2.5; }).attr("r", 0).remove();
 
     vis.selectAll("text").data(nodes).transition().duration(2000).delay(1000)
         .attr("class", textClassMatch)
         .attr("x", function(d) { return d.x; })
-        .attr("y", function(d) { return d.y; })
+        .attr("y", textYPlacement)
         .attr("dy", ".35em")
         .attr("text-anchor", "middle")
         .style("opacity", showLabels)
@@ -110,7 +120,7 @@ function afterFirstLoad(data) {
     vis.selectAll("text").data(nodes).enter().append("svg:text")
         .attr("class", textClassMatch)
         .attr("x", function(d) { return d.x; })
-        .attr("y", function(d) { return d.y; })
+        .attr("y", textYPlacement)
         .attr("dy", ".35em")
         .attr("text-anchor", "middle")
         .style("opacity", 0)
@@ -122,20 +132,47 @@ function afterFirstLoad(data) {
     vis.selectAll("text").sort(function(a,b){return 1});
 }
 
-function textClassMatch(d) {
-    if(d.type == "company" || d.type == "domain" || d.type == "status" || d.type == "level" || d.type == "group" || d.type == "assignment")
+function circleClassMatch(d) {
+    if(d.type == "beginner" || d.type == "intermediate" || d.type == "advanced" || d.type == "company" || d.type == "domain")
         return d.type;
+    if(d.type == "level")
+        return d.parent.type + "_" + d.type;
     return d.children ? "parent" : "child";
 }
 
+function textClassMatch(d) {
+    if(d.type == "company" || d.type == "domain" || d.type == "status" || d.type == "group" || d.type == "assignment")
+        return d.type;
+    if(d.type == "level")
+        return d.parent.type + "_" + d.type;
+    if(d.type == "beginner" || d.type == "intermediate" || d.type == "advanced")
+        return "hidden";
+    return d.children ? "parent" : "child";
+}
+
+function textYPlacement(d) {
+    if(d.type == "company")
+        return 20+12;
+    if(d.type == "domain")
+        return (d.y+ d.r)+(7+5);
+    return d.y;
+}
+
 function showLabels(d) {
+    if(d.type == "domain")
+        return 1;
     if(d.type == "level")
         return d.r > 10 ? 1 : 0;
     return d.r > 75 ? 1 : 0
 }
 
 function showLabelsZoom(d) {
-    if(zoomType == "level") return 1;
+    if(d.type == "domain") return 1;
+    if(zoomType == "level")
+        if(d.type == "assignment")
+            return k * d.r > 10 ? 1 : 0;
+        else
+            return 1;
     if(d.type == "level")
         return k * d.r > 10 ? 1 : 0;
     return k * d.r > 75 ? 1 : 0
@@ -158,8 +195,17 @@ function zoom(d, i) {
 
     t.selectAll("text")
         .attr("x", function(d) { return x(d.x); })
-        .attr("y", function(d) { return y(d.y); })
-        .style("opacity", showLabelsZoom);
+        .attr("y", function (d) { return y(textYPlacement(d))})
+        .style("opacity", showLabelsZoom)
+        .style("font-size", function(d) {
+            if(d.type == "level") {
+                var zoomedValue = Math.min(d.r*k,(k * 14));
+                return zoomedValue.toString() + "px";
+            }
+
+        });
+
+
 
     node = d;
     d3.event.stopPropagation();

@@ -1,9 +1,10 @@
 {
     "name": "IBM",
+    "type": "company",
     "children": [
         {
             "name": "Beginner",
-            "type": "status",
+            "type": "beginner",
             "children": [
                 {
                     "name": "L0",
@@ -328,7 +329,7 @@
         },
         {
             "name": "Intermediate",
-            "type": "status",
+            "type": "intermediate",
             "children": [
                 {
                     "name": "L4",
@@ -774,7 +775,7 @@
         },
         {
             "name": "Advanced",
-            "type": "status",
+            "type": "advanced",
             "children": [
                 {
                     "name": "L9",

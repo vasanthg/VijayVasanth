@@ -6,14 +6,35 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+/*TEXT*/
 text {
     font-size: 11px;
     pointer-events: none;
 }
 
 text.company {
+    font-family: Arial;
     font-size: 24px;
     font-weight: bold;
+    fill: #ffffff;
+}
+
+text.beginner_level {
+    fill: #737a7d;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+text.intermediate_level {
+    fill: #6e7c75;
+    font-size: 14px;
+    font-family: Arial;
+}
+
+text.advanced_level {
+    fill: #81736f;
+    font-size: 14px;
+    font-family: Arial;
 }
 
 text.status {
@@ -33,34 +54,81 @@ text.parent {
     fill: #1f77b4;
 }
 
+text.hidden {
+    opacity : 0;
+}
+
 text.assignment {
     font-size: 12px;
+    fill: #ffffff;
     padding-top: 20px;
 }
 
-text.level {
-    font-size: 14px;
-}
+/*CIRCLES*/
 
 circle {
-    fill: #ccc;
-    stroke: #999;
     pointer-events: all;
 }
 
 circle.parent {
-    fill: #1f77b4;
-    fill-opacity: .1;
-    stroke: steelblue;
+
 }
 
-circle.parent:hover {
+circle:hover {
     stroke: #ff7f0e;
     stroke-width: .5px;
 }
 
+circle.beginner_level {
+    fill: #d7dee1;
+}
+
+circle.intermediate_level {
+    fill: #d2e0d9;
+}
+
+circle.advanced_level {
+    fill: #d8d7d3;
+}
+
 circle.child {
+    fill: #000000;
+    fill-opacity: .05;
     pointer-events: none;
+}
+
+circle.beginner {
+    fill: #ebf1f5;
+}
+
+circle.intermediate {
+    fill: #e6f4ec;
+}
+
+circle.advanced {
+    fill: #eeebe7;
+}
+
+circle.company {
+    fill: #b3b3b3;
+    stroke: #e8f1f7;
+    stroke-width: 4px;
+}
+
+circle.domain {
+    fill: white;
+}
+
+/*EXTRA*/
+
+g.background {
+    fill: #f6f6f6;
+    fill-opacity: 1;
+}
+
+rect.background {
+    fill: #f6f6f6;
+    fill-opacity: 1;
 }
 
 /* ==========================================================================
