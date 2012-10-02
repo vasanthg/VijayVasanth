@@ -138,9 +138,50 @@ td.left_bg {
     background-image: url('../img/right_ds.gif');
 }
 
+#chartContent {
+    display: table;
+}
+    #chartControls {
+        display: table-cell;
+        background-color: white;
+        padding: 10px;
+    }
+    #secondaryChartControls {
+        display: table-cell;
+        background-color: white;
+        padding: 10px;
+    }
+    #legend {
+        display:table;
+    }
+    div.legendEntry {
+        display:table-row;
+        width: 300px;
+    }
+
+    div.legendBlock {
+        float:left;
+        width: 20px;
+        height: 20px;
+        margin: 5px;
+    }
+
+    div.beginner {
+        background-color: #ebf1f5;
+    }
+
+    div.intermediate {
+       background-color: #e6f4ec;
+    }
+
+    div.advanced {
+        background-color: #eeebe7;
+    }
+
+
 /* ==========================================================================
-   Base styles: opinionated defaults
-   ========================================================================== */
+Base styles: opinionated defaults
+========================================================================== */
 
 html,
 button,

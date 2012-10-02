@@ -1,4 +1,4 @@
-var w = 960,
+var w = 958,
     h = 550,
     r = 520,
     x = d3.scale.linear().range([0, r]),
@@ -13,7 +13,7 @@ var pack = d3.layout.pack()
     .size([r, r])
     .value(function(d) { return d.value });
 
-var vis = d3.select("form").insert("svg:svg", "h2")
+var vis = d3.select("chart").append("svg:svg")
     .attr("width", w)
     .attr("height", h)
     .append("svg:g")

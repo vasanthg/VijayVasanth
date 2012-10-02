@@ -40,12 +40,35 @@
         <table width="1040" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
                 <td class="left_bg">&nbsp;</td>
-                <td width="980" height="550" bgcolor="#F6F6F6" style="padding-left: 20px;">
+                <td width="980" height="550" bgcolor="#F6F6F6" style="padding-left: 20px;padding-top: 5px;padding-bottom: 5px;">
 
-                    <form name="scopeForm">
-                        <p>Company:&nbsp;&nbsp;<input type="radio" name="scopeRadios" value="company"><br>
-                            Domain: &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="scopeRadios" value="domain" checked></p>
-                    </form>
+                        <div id="chartContent">
+                            <div id="chartControls">
+                                <form name="scopeForm">
+                                    <p>Company:&nbsp;&nbsp;<input type="radio" name="scopeRadios" value="company"><br>
+                                        Domain: &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="scopeRadios" value="domain" checked></p>
+
+                                </form>
+                            </div>
+                            <div style="display:table-cell;width: 700px;"></div>
+                            <div id="secondaryChartControls">
+                                <div id="legend">
+                                    <div class="legendEntry">
+                                        <div class="legendBlock beginner"></div><div style="float:left;height:20px">Beginner</div>
+                                    </div>
+                                    <div class="legendEntry">
+                                        <div class="legendBlock intermediate"></div><div style="float:left;height:20px">Intermediate</div>
+                                    </div>
+                                    <div class="legendEntry">
+                                        <div class="legendBlock advanced"></div><div style="float:left;height:20px">Advanced</div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                    <chart/>
 
 
                 </td>
