@@ -131,6 +131,13 @@ rect.background {
     fill-opacity: 1;
 }
 
+td.left_bg {
+    background-image: url('../img/left_ds.gif')
+}
+.right_bg {
+    background-image: url('../img/right_ds.gif');
+}
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
@@ -146,6 +153,11 @@ textarea {
 body {
     font-size: 1em;
     line-height: 1.4;
+    margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    background-color: #C6D0D6;
 }
 
 /*

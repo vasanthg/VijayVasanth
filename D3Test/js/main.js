@@ -1,4 +1,4 @@
-var w = 980,
+var w = 960,
     h = 550,
     r = 520,
     x = d3.scale.linear().range([0, r]),
@@ -13,19 +13,19 @@ var pack = d3.layout.pack()
     .size([r, r])
     .value(function(d) { return d.value });
 
-var vis = d3.select("body").insert("svg:svg", "h2")
+var vis = d3.select("form").insert("svg:svg", "h2")
     .attr("width", w)
     .attr("height", h)
     .append("svg:g")
     .attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
 
-vis.append("rect")
-    .attr("width", 980)
-    .attr("height", 550)
-    .attr("x", 0-(w-r)/2)
-    .attr("y", 0-(h - r) / 2)
-
-    .attr("class","background");
+//vis.append("rect")
+//    .attr("width", 960)
+//    .attr("height", 550)
+//    .attr("x", 0-(w-r)/2)
+//    .attr("y", 0-(h - r) / 2)
+//
+//    .attr("class","background");
 
 d3.json("data/IBM_full.json", afterLoad);
 

@@ -23,25 +23,27 @@
       <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/D3Test/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="110" column="0" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0">
+            <state line="137" column="30" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/D3Test/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="75" selection-start="3214" selection-end="3214" vertical-scroll-proportion="0.55910546">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/D3Test/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="10" selection-start="975" selection-end="975" vertical-scroll-proportion="-13.75">
+            <state line="44" column="43" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.5820399">
+              <folding>
+                <element signature="n#style#0;n#td#1;n#tr#0;n#table#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/D3Test/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="22" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,9 +70,9 @@
         <option value="$PROJECT_DIR$/protected/config/main.php" />
         <option value="$PROJECT_DIR$/protected/controllers/UserController.php" />
         <option value="$PROJECT_DIR$/web.config" />
-        <option value="$PROJECT_DIR$/D3Test/index.html" />
         <option value="$PROJECT_DIR$/D3Test/css/main.css" />
         <option value="$PROJECT_DIR$/D3Test/js/main.js" />
+        <option value="$PROJECT_DIR$/D3Test/index.html" />
       </list>
     </option>
   </component>
@@ -106,6 +108,20 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="yii">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -170,22 +186,26 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="yii">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="VijayVasanth" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="D3Test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -197,8 +217,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="web.server" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="options.searchVisible" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/D3Test/img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/D3Test/img" />
+      <recent name="$PROJECT_DIR$/D3Test" />
+    </key>
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -310,13 +340,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="61" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0990099">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/D3Test/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="110" column="0" selection-start="1447" selection-end="1447" vertical-scroll-proportion="0.0">
@@ -324,17 +347,47 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/D3Test/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="54" column="26" selection-start="1311" selection-end="1311" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/D3Test/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="10" selection-start="975" selection-end="975" vertical-scroll-proportion="-13.75">
+        <state line="22" column="10" selection-start="975" selection-end="975" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="61" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0990099" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D3Test/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="137" column="30" selection-start="1802" selection-end="1802" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/D3Test/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="75" selection-start="3214" selection-end="3214" vertical-scroll-proportion="0.55910546">
+        <state line="17" column="22" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/D3Test/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="43" selection-start="2121" selection-end="2121" vertical-scroll-proportion="0.5820399">
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#0;n#table#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
