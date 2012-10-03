@@ -135,6 +135,11 @@ rect.background {
     font-family: Arial;
     fill: white;
     font-size: 14px;
+    pointer-events: none;
+}
+
+.numberToolTipBG {
+    pointer-events: none;
 }
 
 td.left_bg {

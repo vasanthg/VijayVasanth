@@ -79,7 +79,7 @@ function afterLoad(data) {
         .transition().duration(2500)
             .style("opacity", showLabels);
 
-    numberTooltipBG = toolTipPlaceholder.append("rect")
+    toolTipPlaceholder.append("rect")
         .attr("x", nodes[0].x + (w-r)/2 - 25)
         .attr("y", 0 + (h-r)/2 - 14)
         .attr("class","numberToolTipBG")
@@ -90,7 +90,9 @@ function afterLoad(data) {
         .transition().duration(2500)
         .style("opacity",.5);
 
-    numberTooltip = toolTipPlaceholder.append("svg:text")
+    numberTooltipBG = d3.selectAll("rect.numberToolTipBG");
+
+    toolTipPlaceholder.append("svg:text")
         .attr("x", nodes[0].x + (w-r)/2)
         .attr("y", 0 + (h-r)/2)
         .attr("class", "numberToolTip")
@@ -99,6 +101,8 @@ function afterLoad(data) {
         .text(nodes[0].value)
         .transition().duration(2500)
         .style("opacity", 1);
+
+    numberTooltip = d3.selectAll("text.numberToolTip");
 
     var newWidth = d3.selectAll("text.numberToolTip").node().getComputedTextLength() + 10;
     numberTooltipBG.attr("x",nodes[0].x + (w-r)/2 - (newWidth)/2).attr("width",newWidth);
@@ -166,7 +170,7 @@ function moveNumberTotal(d,i) {
     x.domain([node.x - node.r, node.x + node.r]);
     y.domain([node.y - node.r, node.y + node.r]);
 
-    var t = numberTooltip.transition();
+    var t = numberTooltip;
 
     nodeTooltip = d;
 
@@ -175,7 +179,7 @@ function moveNumberTotal(d,i) {
 //    console.log("CurrentX:" + toolTipX);
 //    console.log("NewX:" + x(toolTipX));
 
-    t.attr("x", x(toolTipX) + (w-r)/2)
+    numberTooltip.attr("x", x(toolTipX) + (w-r)/2)
         .attr("y", y(currentCircle.y) - (newK*currentCircle.r) + (h-r)/2)
         .text(currentCircle.value);
 
