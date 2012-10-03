@@ -24,7 +24,7 @@ var vis = d3.select("chart").append("svg:svg")
 
 var toolTipPlaceholder = d3.select("svg");
 
-d3.selectAll("chromeFrameError").remove();
+d3.selectAll(".chromeFrameError").remove();
 
 d3.json("data/IBM_full.json", afterLoad);
 
