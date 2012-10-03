@@ -86,7 +86,9 @@ function afterLoad(data) {
         .attr("width", 50)
         .attr("height", 18)
         .style("fill","black")
-        .style("opacity", .5);
+        .style("opacity", 0)
+        .transition().duration(2500)
+        .style("opacity",.5);
 
     numberTooltip = toolTipPlaceholder.append("svg:text")
         .attr("x", nodes[0].x + (w-r)/2)
