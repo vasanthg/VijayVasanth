@@ -131,10 +131,16 @@ rect.background {
     fill-opacity: 1;
 }
 
+.numberToolTip {
+    font-family: Arial;
+    fill: white;
+    font-size: 14px;
+}
+
 td.left_bg {
     background-image: url('../img/left_ds.gif')
 }
-.right_bg {
+td.right_bg {
     background-image: url('../img/right_ds.gif');
 }
 

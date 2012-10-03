@@ -7,7 +7,10 @@ var w = 958,
     root,
     nodes,
     k,
-    zoomType;
+    zoomType,
+    numberTooltip,
+    numberTooltipBG,
+    nodeTooltip;
 
 var pack = d3.layout.pack()
     .size([r, r])
@@ -19,13 +22,7 @@ var vis = d3.select("chart").append("svg:svg")
     .append("svg:g")
     .attr("transform", "translate(" + (w - r) / 2 + "," + (h - r) / 2 + ")");
 
-//vis.append("rect")
-//    .attr("width", 960)
-//    .attr("height", 550)
-//    .attr("x", 0-(w-r)/2)
-//    .attr("y", 0-(h - r) / 2)
-//
-//    .attr("class","background");
+var toolTipPlaceholder = d3.select("svg");
 
 d3.json("data/IBM_full.json", afterLoad);
 
@@ -65,6 +62,7 @@ function afterLoad(data) {
         .attr("cy", function(d) { return d.y; })
         .attr("r", 0)
         .on("click", function(d) { return zoom(node == d ? root : d); })
+        .on("mouseover", moveNumberTotal)
         .transition().duration(2000).delay(function(d, i) { return i * 2.5; })
             .attr("r", function(d) { return d.r; });
 
@@ -81,6 +79,28 @@ function afterLoad(data) {
         .transition().duration(2500)
             .style("opacity", showLabels);
 
+    numberTooltipBG = toolTipPlaceholder.append("rect")
+        .attr("x", nodes[0].x + (w-r)/2 - 25)
+        .attr("y", 0 + (h-r)/2 - 14)
+        .attr("class","numberToolTipBG")
+        .attr("width", 50)
+        .attr("height", 18)
+        .style("fill","black")
+        .style("opacity", .5);
+
+    numberTooltip = toolTipPlaceholder.append("svg:text")
+        .attr("x", nodes[0].x + (w-r)/2)
+        .attr("y", 0 + (h-r)/2)
+        .attr("class", "numberToolTip")
+        .attr("text-anchor","middle")
+        .style("opacity", 0)
+        .text(nodes[0].value)
+        .transition().duration(2500)
+        .style("opacity", 1);
+
+    var newWidth = d3.selectAll("text.numberToolTip").node().getComputedTextLength() + 10;
+    numberTooltipBG.attr("x",nodes[0].x + (w-r)/2 - (newWidth)/2).attr("width",newWidth);
+
     d3.select(window).on("click", function() { zoom(root); });
 }
 
@@ -95,6 +115,7 @@ function afterFirstLoad(data) {
         .attr("cx", function(d) { return d.x; })
         .attr("cy", function(d) { return d.y; })
         .on("click", function(d) { return zoom(node == d ? root : d); })
+        .on("mouseover", moveNumberTotal)
         .transition().duration(2000).delay(function(d, i) { return i * 2.5; })
             .attr("r", function(d) { return d.r; });
 
@@ -128,8 +149,40 @@ function afterFirstLoad(data) {
         .transition().duration(2000).delay(1000)
         .style("opacity", showLabels);
 
+    moveNumberTotal(nodes[0]);
+
+    d3.selectAll("text.numberToolTip").text(nodes[0].value);
+
     // Temporary solution but this sorts the texts which forces text infront of some circles in strange cases
     vis.selectAll("text").sort(function(a,b){return 1});
+}
+
+function moveNumberTotal(d,i) {
+    var currentCircle = d;
+
+    newK = r / node.r / 2;
+    x.domain([node.x - node.r, node.x + node.r]);
+    y.domain([node.y - node.r, node.y + node.r]);
+
+    var t = numberTooltip.transition();
+
+    nodeTooltip = d;
+
+    var toolTipX = currentCircle.x;
+
+//    console.log("CurrentX:" + toolTipX);
+//    console.log("NewX:" + x(toolTipX));
+
+    t.attr("x", x(toolTipX) + (w-r)/2)
+        .attr("y", y(currentCircle.y) - (newK*currentCircle.r) + (h-r)/2)
+        .text(currentCircle.value);
+
+    var newWidth = d3.selectAll("text.numberToolTip").node().getComputedTextLength() + 10;
+
+    numberTooltipBG.attr("x",x(toolTipX) + (w-r)/2 - (newWidth)/2)
+        .attr("y", y(currentCircle.y) - (newK*currentCircle.r) + (h-r)/2 - 14)
+        .attr("width",newWidth);
+
 }
 
 function circleClassMatch(d) {
@@ -205,36 +258,21 @@ function zoom(d, i) {
 
         });
 
-
-
     node = d;
+
+    var t2 = toolTipPlaceholder.transition().duration(750);
+
+    t2.selectAll("text.numberToolTip")
+        .attr("x", x(node.x) + (w-r)/2)
+        .attr("y", y(node.y) - (k*node.r) + (h-r)/2);
+
+    var newWidth = d3.selectAll("text.numberToolTip").node().getComputedTextLength() + 10;
+
+
+    t2.selectAll("rect.numberToolTipBG")
+        .attr("x",x(node.x) + (w-r)/2 - (newWidth)/2)
+        .attr("y", y(node.y) - (k*node.r) + (h-r)/2 - 14)
+        .attr("width",newWidth);
+
     d3.event.stopPropagation();
 }
-
-//function shiftData() {
-//    // Reset data since value function uses Math.random()
-//    nodes = pack.nodes(root);
-//
-//    vis.selectAll("circle").transition().delay(1000).duration(5000).attr("class", function(d) { return d.children ? "parent" : "child"; })
-//        .attr("cx", function(d) { return d.x; })
-//        .attr("cy", function(d) { return d.y; })
-//        .attr("r", function(d) { return d.r; });
-//
-//    showLabels();
-//}
-//
-//function showLabels(d) {
-//    vis.selectAll("text").transition().delay(1000).duration(5000)
-//        .attr("x", function(d) { return d.x; })
-//        .attr("y", function(d) { return d.y; })
-//        .style("opacity", function(d) {
-//            if(d.r < 20 || d.r > 400)
-//                return 0;
-//            else
-//                return 1;
-//        });
-//}
-//
-//function hideLabels() {
-//    vis.selectAll("text").transition().duration(1000).style("opacity", function(d) {return 0});
-//}
